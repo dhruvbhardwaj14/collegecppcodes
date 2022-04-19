@@ -1,0 +1,1 @@
+{"name":"Local: ifelse","url":"/Users/dhruvbhardwaj/Desktop/dhruvc++/ifelse.cpp","tests":[{"id":1635236948096,"input":"51 7 9","output":"51\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/dhruvc++/ifelse.cpp","group":"local","local":true}
