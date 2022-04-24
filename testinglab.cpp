@@ -73,7 +73,7 @@ using namespace std;
 
 void bubblesort(int arr[],int n){
     int counter=n-1;
-    int comparison=0;
+    // int comparison=0;
     while (counter>0)
     {
         for (int i = counter; i>=0; i--)
@@ -88,23 +88,23 @@ void bubblesort(int arr[],int n){
         }
             counter--;
     }
-    cout<<"Comparisons done- "<<comparison<<endl;
+    // cout<<"Comparisons done- "<<comparison<<endl;
     
 }
 
-void insertionsort(int arr[],int n){
-    for (int i = 1; i < n; i++)
-    {
-        int j=i-1;
-        int current=arr[i];
-        while (arr[j]>current)
-        {
-            arr[j+1]=arr[j];
-            j--;
-        }
-       arr[j+1]=current;
-    }
-}
+// void insertionsort(int arr[],int n){
+//     for (int i = 1; i < n; i++)
+//     {
+//         int j=i-1;
+//         int current=arr[i];
+//         while (arr[j]>current)
+//         {
+//             arr[j+1]=arr[j];
+//             j--;
+//         }
+//        arr[j+1]=current;
+//     }
+// }
 
 int main(){
     int size;
@@ -114,8 +114,8 @@ int main(){
     {
         cin>>arr[i];
     }
-    int key;
-    cin>>key;
+    // int key;
+    // cin>>key;
     // cout<<linearsearch(key,arr,size)<<endl;
     // cout<<binarysearch(arr,size,key);
     // selectionsort(arr,size);
@@ -150,4 +150,4 @@ int main(){
 // e++;
 return 0;
 }
-// dhruv bhardwaj and 80 others is here in the lab 
+
