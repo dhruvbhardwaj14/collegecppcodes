@@ -23,8 +23,6 @@
                 wubcount=0;
                 n+=a[i];
             }
-            
-            
     }
             cout<<n<<endl;
  return 0;

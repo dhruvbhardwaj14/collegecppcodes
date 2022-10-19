@@ -27,7 +27,7 @@ int main(){
     cout<<endl;
 //another way through iterator
     vector<int>::iterator it;
-    for (it =v.begin(); it!=v.end(); it++)
+    for (it=v.begin(); it!=v.end(); it++)
     {
         cout<<*it<<" ";//vector pointer
     }

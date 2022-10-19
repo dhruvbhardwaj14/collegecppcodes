@@ -42,9 +42,10 @@ int main(){
 // cout<<"not empty s"<<endl;
 // }
 
-// 6. erase 
+// // 6. erase 
 // string s="abcdefghijklmnopqrstuvwxyz";
-// cout<<s.erase(2,1)<<endl;
+// s.erase(2,1);
+// cout<<s<<endl;
 
 
 // 7. substring find 
@@ -61,7 +62,7 @@ int main(){
 
 // 10. slicing a substring 
 // string s="abcdefghijklmnopqrstuvwxyz";
-// cout<<s.substr(10,2)<<endl;
+// cout<<s.substr(0,s.length())<<endl;
 
 // 11. string to int 
 // string s="abcdefghijklmnopqrstuvwxyz";
@@ -79,5 +80,5 @@ int main(){
 // sort(s1.begin(),s1.end());
 // reverse(s1.begin(),s1.end());
 // cout<<s1<<endl;
-// return 0;
-// }
+return 0;
+}
