@@ -1,0 +1,1 @@
+{"name":"Local: wavesort","url":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/wavesort.cpp","tests":[{"id":1650955844894,"input":"8\n1 3 4 7 5 6 2 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/wavesort.cpp","group":"local","local":true}

@@ -72,7 +72,6 @@ using namespace std;
 //                 arr[i]=arr[i+1];
 //                 arr[i+1]=temp;
 //               }
-              
 //         }
 //         counter++; 
 //     }
@@ -142,3 +141,30 @@ int main()
     return 0;
 }
 // 28
+// i=1
+// while (i<n)
+// {
+//     for (int j = 0; j < n-i; j++)
+//     {
+//        if (arr[i]>arr[i+1])
+//        {
+//            swap
+//        }
+       
+//     }
+//     i++;
+// }
+
+
+// for (int i = 0; i < n; i++)
+// {
+//     //curr=arr[i]
+// j=i-1
+// while (arr[j]>curr && j>=0)
+// {
+//     arr[j+1]=arr[j];
+//     j--;
+// }
+
+// }
+

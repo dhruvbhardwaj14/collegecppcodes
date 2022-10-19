@@ -61,8 +61,8 @@ int main(){
 // cout<<s.size()<<endl;
 
 // 10. slicing a substring 
-// string s="abcdefghijklmnopqrstuvwxyz";
-// cout<<s.substr(0,s.length())<<endl;
+string s="abcdefghijklmnopqrstuvwxyz";
+cout<<s.substr(0,2)<<endl;
 
 // 11. string to int 
 // string s="abcdefghijklmnopqrstuvwxyz";

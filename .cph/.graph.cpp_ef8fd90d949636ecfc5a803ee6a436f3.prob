@@ -1,0 +1,1 @@
+{"name":"Local: graph","url":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/graph.cpp","tests":[{"id":1656422803541,"input":"3\n5\n0 1 1\n1 0 1\n1 1 0\n0 1 2 3 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/graph.cpp","group":"local","local":true}

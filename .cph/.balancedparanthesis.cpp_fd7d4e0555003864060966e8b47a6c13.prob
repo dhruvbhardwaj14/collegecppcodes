@@ -1,0 +1,1 @@
+{"name":"Local: balancedparanthesis","url":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/balancedparanthesis.cpp","tests":[{"id":1651427808071,"input":"{[()]}12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/balancedparanthesis.cpp","group":"local","local":true}

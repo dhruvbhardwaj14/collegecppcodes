@@ -1,0 +1,1 @@
+{"name":"Local: postfix","url":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/postfix.cpp","tests":[{"id":1651423094434,"input":"(a-b/c)*(a/k-l)","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/postfix.cpp","group":"local","local":true}

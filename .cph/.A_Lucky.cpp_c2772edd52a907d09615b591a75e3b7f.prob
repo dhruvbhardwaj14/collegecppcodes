@@ -1,0 +1,1 @@
+{"name":"Local: A_Lucky","url":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/A_Lucky.cpp","tests":[{"id":1652194873968,"input":"5\n213132\n973894\n045207\n000000\n055776","output":"YES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/dhruvbhardwaj/Desktop/Dhruv_Codes/dhruvc++/A_Lucky.cpp","group":"local","local":true}

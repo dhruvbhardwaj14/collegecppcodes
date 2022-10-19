@@ -9,7 +9,6 @@ int diff(int a,int b){
     }
     else return (b-a);
 }
-
 int main(){
     int a[5][5];
     int count=0;
