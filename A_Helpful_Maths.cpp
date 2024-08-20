@@ -21,6 +21,5 @@ for (int i = 0; i < n; i+=2)
     k++;
 }
 cout<<a<<endl;
-
 return 0;
 }
