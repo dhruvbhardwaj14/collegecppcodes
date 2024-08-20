@@ -1,15 +1,9 @@
-#include<iostream>
-#include<cmath>
-#include"bits/stdc++.h" 
- 
+#include"bits/stdc++.h"
 using namespace std;
 int main(){
-int n;
-cin>>n;
-if (n%2==0 && n!=2)
-{
-    cout<<"YES"<<endl;
-}
-else cout<<"No"<<endl;
+    int x;
+    cin>>x;
+    if(x%2==0 && x!=2){cout<<"YES"<<endl;}
+    else cout<<"NO"<<endl;
 return 0;
 }

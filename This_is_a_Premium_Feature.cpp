@@ -2,41 +2,39 @@
 #include<cmath>
 #include"bits/stdc++.h"
 using namespace std;
+int sum(int arr[], int n)
+{
+  int ans = 0;
+ 
+  // Finding sum of the array.
+  for (int i = 0; i < n; i++)
+    ans += arr[i];
+ 
+  return ans * pow(2, n - 1);
+}
 int main(){
     int t;
     cin>>t;
     while(t--){
-       long long int n;
-        cin>>n;
-        long long int a[n],b[n];
+        int n,k;
+        cin>>n>>k;
+        int size=pow(2,n);
+        int a[n],b[size];
         for (int i = 0; i < n; i++)
         {
-           cin>>a[i];
+            cin>>a[i];
+            if (k==a[i])
+            {
+                cout<<"YES"<<endl;
+            }
         }
         for (int i = 0; i < n; i++)
         {
-           cin>>b[i];
+             b[i]=sum(a,n);
+             cout<<b[i]<<endl;
         }
-        int s=0;
-        int e=0;
-        int count=0;
-        while(s!=n-1){
-            if (e==n)
-            {
-                s++;
-                e=s+1;
-            }
-            if (s<e &&a[s]==b[e]&&a[e]==b[s])
-            {
-                count++;
-                e++;
-            }
-            else{
-                e++;
-            }
-            
-        }
-        cout<<count<<endl;
+
+        
     }
 return 0;
 }
